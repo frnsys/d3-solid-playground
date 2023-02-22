@@ -1,0 +1,21 @@
+{
+  "name": "d3-solid-playground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^7.8.2",
+    "solid-js": "^1.6.9"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.0",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.7.4",
+    "vite": "^4.0.4",
+    "vite-plugin-solid": "^2.5.0"
+  }
+}

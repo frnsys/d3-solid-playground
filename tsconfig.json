@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "lib": [
+      "dom",
+      "es2021.string"
+    ],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
